@@ -1,5 +1,7 @@
 package c.inheritance;
 
+import c.model.MemberDTO;
+
 public class Equals {
     public static void main(String[] args){
         Equals thisObjects = new Equals();
