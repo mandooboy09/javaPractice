@@ -1,0 +1,13 @@
+package e.thread;
+
+public class NameCalcThread extends Thread{
+    private int calcNumber;
+    public NameCalcThread(String name, int calcNumber){
+        super(name);
+        this.calcNumber = calcNumber;
+    }
+    public void run(){
+        calcNumber += 1;
+        System.out.println(super.getName() + "=" + calcNumber);
+    }
+}
